@@ -1,15 +1,11 @@
 #VRML_SIM R2021b utf8
 WorldInfo {
-  info [
-    "The model of the E-puck robot"
-  ]
   title "E-puck simulation"
   coordinateSystem "NUE"
 }
 Viewpoint {
   orientation 1 0 0 4.71238898038469
   position 6.555821074951632e-16 3.2280151763415073 9.85549612468789e-15
-  follow "e-puck"
 }
 RectangleArena {
   floorSize 2 2
@@ -45,7 +41,7 @@ WoodenBox {
 }
 E-puck {
   rotation 0 1 0 1.57
-  controller "e-puck"
+  controller "main"
 }
 Background {
   skyColor [
